@@ -1,0 +1,39 @@
+.HeaderBackground{
+    background-color: #0f0e2e;
+}
+.HeaderMail{
+    font-size: 12px;
+    text-decoration: none !important;
+}
+.MenuBar{
+    font-weight: bold;
+}
+.noUi-horizontal .noUi-tooltip{
+    top:125% !important;
+    color:red;
+    bottom: auto;
+    padding: 3px;
+}
+.noUi-horizontal .noUi-handle {
+    height: 18px;
+    background-color:orange;
+}
+.noUi-horizontal {
+    height:8px !important;
+}
+.noUi-handle {
+    box-shadow: none;
+}
+.noUi-handle:before, .noUi-handle:after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 7px;
+    width: 1px;
+    background: #E8E7E6;
+    left: 14px;
+    top: 4px;
+}
+.noUi-tooltip{
+    border:0px;
+}
